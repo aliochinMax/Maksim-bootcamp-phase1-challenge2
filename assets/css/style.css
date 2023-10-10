@@ -18,6 +18,12 @@ body, html{
   justify-content:center;
   align-items:center;
 }
+
+.side-border{
+  transform: rotateZ(90deg);
+  position: relative;
+  right: 200px;
+}
 header{
   background-color: var(--main);
   width: 100%;
@@ -106,9 +112,6 @@ hr{
   height: inherit;
 }
 
-.portfolio-text{
-
-}
 
 
 #project-1{
@@ -145,4 +148,22 @@ hr{
   height: 1fr;
   background-image: url("/assets/images/02-portfolio-5.jpg");
 }
+
+.page-wrapper{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content:center;
+  padding-top: 10%;
+
+}
+
+#about{
+  position: absolute;
+  font-size:1.3rem;
+  width: 20%;
+  margin-right: 10%;
+}
+
+
 
